@@ -24,7 +24,7 @@ const opportunities = [
     category: "fellowship",
     tag: "FELLOWSHIP",
     description: "Explore the Young African Leaders Initiative fellowship programme and check whether applications are currently open.",
-    deadline: "deadline: "No official deadline announced",",
+    deadline: "No official deadline announced",
     source: "Mandela Washington Fellowship",
     url: "https://www.mandelawashingtonfellowship.org/"
   },
@@ -34,7 +34,7 @@ const opportunities = [
     category: "healthcare",
     tag: "PUBLIC HEALTH",
     description: "Explore the Nigeria Centre for Disease Control and Prevention internship information. Check the current application cycle and eligibility before applying.",
-    deadline: "deadline: "No official deadline announced",
+    deadline: "No official deadline announced",
     source: "NCDC",
     url: "https://ncdc.gov.ng/internship"
   },
@@ -379,7 +379,7 @@ document.addEventListener("DOMContentLoaded", function () {
   }
 
   function escapeHTML(value) {
-    return String(value ?? "").replace(/[&<>"']/g, function (character) {
+    return String(value ?? "").replace(/[&<>\"']/g, function (character) {
       const entities = {
         "&": "&amp;",
         "<": "&lt;",
