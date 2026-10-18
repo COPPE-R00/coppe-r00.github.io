@@ -363,6 +363,51 @@ const opportunities = [
     url: "https://app.unv.org/"
   }
 
+    // ==========================================
+  // VERIFIED RECRUITMENT — OCTOBER 2026
+  // Checked: 18 October 2026
+  // Confirm vacancy status before applying.
+  // ==========================================
+
+  {
+    title: "UNICEF — Financial System Strengthening Associate Consultant",
+    category: "healthcare",
+    tag: "HEALTH PROGRAMME",
+    description: "12-month national consultancy supporting financial management systems for primary healthcare programmes under the EU SARAH grant. The role supports the Kwara State Primary Healthcare Development Agency and Ministry of Health. The listed duty station is Kaduna, with office-based work and travel. Applicants need a relevant university degree and at least five years of progressive financial management, accounting, financial controls and partnership management experience. A master's degree or professional accounting qualification is an advantage.",
+    deadline: "21 October 2026",
+    source: "UNICEF Careers",
+    url: "https://jobs.unicef.org/en-us/job/596332"
+  },
+
+  {
+    title: "UNICEF — People and Culture Associate",
+    category: "job",
+    tag: "HUMAN RESOURCES",
+    description: "Temporary 364-day appointment in Abuja, Nigeria. Provides administrative, procedural and operational support for human resources functions. The vacancy requires completion of secondary education and at least six years of progressively responsible administrative or clerical experience. Review the official vacancy for the full requirements.",
+    deadline: "22 October 2026",
+    source: "UNICEF Careers",
+    url: "https://careers.pageuppeople.com/671/cw/en-us/job/596321"
+  },
+
+  {
+    title: "UNICEF — Food Fortification and Iodine Nutrition Consultancy",
+    category: "healthcare",
+    tag: "PUBLIC HEALTH & NUTRITION",
+    description: "10-month consultancy based in Abuja, with travel across West and Central Africa. Provides technical, policy and coordination support for large-scale food fortification, universal salt iodization and related nutrition priorities. Intended for experienced professionals; check the official vacancy for the full qualifications and application requirements.",
+    deadline: "25 October 2026",
+    source: "UNICEF Careers",
+    url: "https://jobs.unicef.org/cw/en-us/job/596210/consultancy-to-provide-technical-support-to-advance-largescale-food-fortification-and-iodine-nutrition-agenda-in-wcar-office-based-in-abuja-nigeria-with-travel-10-months-596210"
+  },
+
+  {
+    title: "Federal University of Lafia — Recruitment 2026",
+    category: "job",
+    tag: "UNIVERSITY RECRUITMENT",
+    description: "Academic and non-teaching recruitment at the Federal University of Lafia, Nasarawa State. Listed health-related positions include Medical Officer, Pharmacy Intern, Medical Laboratory Scientist and Medical Laboratory Technician. Each position has different qualification and registration requirements. Read the official recruitment notice and confirm your eligibility before applying.",
+    deadline: "28 October 2026",
+    source: "Federal University of Lafia",
+    url: "https://careers.fulafia.edu.ng/"
+    }
 ];
 
 
