@@ -407,7 +407,7 @@ const opportunities = [
     deadline: "28 October 2026",
     source: "Federal University of Lafia",
     url: "https://careers.fulafia.edu.ng/"
-    }
+    },
 ];
 
 
