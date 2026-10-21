@@ -361,7 +361,7 @@ const opportunities = [
     deadline: "Varies by assignment",
     source: "United Nations Volunteers",
     url: "https://app.unv.org/"
-  }
+  },
 
     // ==========================================
   // VERIFIED RECRUITMENT — OCTOBER 2026
