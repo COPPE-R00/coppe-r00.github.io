@@ -1,430 +1,125 @@
-// ==========================================
+// ======================================================
 // NIGERIA OPPORTUNITY ALERT
-// Jobs, Scholarships, Healthcare, Training
-// ==========================================
+// Current recruitment and vacancy announcements
+// Updated: 26 October 2026
+// ======================================================
 
 const opportunities = [
 
-  // ==========================================
-  // INTERNSHIPS AND FELLOWSHIPS
-  // ==========================================
+  // ======================================================
+  // FEDERAL GOVERNMENT RECRUITMENT
+  // ======================================================
 
   {
-    title: "African Development Bank Internship Programme",
-    category: "internship",
-    tag: "INTERNSHIP",
-    description: "Explore internship opportunities with the African Development Bank. Check the official page for current vacancies, eligibility and deadlines.",
-    deadline: "Check official vacancy",
-    source: "African Development Bank",
-    url: "https://www.afdb.org/en/vacancy"
-  },
-
-  {
-    title: "Mandela Washington Fellowship",
-    category: "fellowship",
-    tag: "FELLOWSHIP",
-    description: "Explore the Young African Leaders Initiative fellowship programme and check whether applications are currently open.",
-    deadline: "No official deadline announced",
-    source: "Mandela Washington Fellowship",
-    url: "https://www.mandelawashingtonfellowship.org/"
-  },
-
-  {
-    title: "NCDC Public Health Internship",
-    category: "healthcare",
-    tag: "PUBLIC HEALTH",
-    description: "Explore the Nigeria Centre for Disease Control and Prevention internship information. Check the current application cycle and eligibility before applying.",
-    deadline: "No official deadline announced",
-    source: "NCDC",
-    url: "https://ncdc.gov.ng/internship"
-  },
-
-  {
-    title: "Young African Leaders Initiative",
-    category: "fellowship",
-    tag: "FELLOWSHIP",
-    description: "Explore leadership development resources and fellowship announcements for young Africans.",
-    deadline: "Varies",
-    source: "YALI",
-    url: "https://yali.state.gov/"
-  },
-
-  // ==========================================
-  // GENERAL JOB OPPORTUNITIES
-  // ==========================================
-
-  {
-    title: "LEEP Nigeria Jobs",
+    title: "EFCC Recruitment 2026",
     category: "job",
-    tag: "JOBS",
-    description: "Search job vacancies across different sectors, including technology, business, agriculture and other careers.",
-    deadline: "Varies by vacancy",
-    source: "LEEP Jobs",
-    url: "https://jobs.leep.gov.ng/"
+    tag: "FEDERAL RECRUITMENT",
+    description:
+      "The Economic and Financial Crimes Commission has announced recruitment for investigative, professional and skilled-worker positions. Categories include Detective Superintendent (GL 08), Detective Inspector (GL 06), Detective Assistant (GL 04), and selected professional roles. Requirements and age limits differ by category. Read the official notice before applying. Applications are free.",
+    deadline: "Check the official portal immediately",
+    source: "Economic and Financial Crimes Commission",
+    url: "https://recruitment.efcc.gov.ng/"
   },
 
+  // ======================================================
+  // UNICEF VACANCIES
+  // ======================================================
+
   {
-    title: "NiYA Jobs",
+    title: "UNICEF — International Consultant for AI Solutions",
     category: "job",
-    tag: "YOUTH JOBS",
-    description: "Explore job listings and employment opportunities available through the Nigeria Youth Investment Fund-related youth employment platform.",
-    deadline: "Varies by vacancy",
-    source: "NiYA Jobs",
-    url: "https://www.jobs.niya.gov.ng/"
-  },
-
-  {
-    title: "National Electronic Labour Exchange",
-    category: "job",
-    tag: "JOBS",
-    description: "Explore employment listings and career opportunities. Confirm the employer and vacancy details before applying.",
-    deadline: "Varies",
-    source: "NELEX",
-    url: "https://nelex.gov.ng/"
-  },
-
-  {
-    title: "United Nations Careers",
-    category: "job",
-    tag: "INTERNATIONAL JOBS",
-    description: "Search international vacancies, consultancies and other career opportunities with United Nations organisations.",
-    deadline: "Varies by vacancy",
-    source: "United Nations",
-    url: "https://careers.un.org/"
-  },
-
-  {
-    title: "UNICEF Nigeria Opportunities",
-    category: "job",
-    tag: "NGO / JOBS",
-    description: "Find Nigeria-related vacancies, internships and consultancies. Check each listing's qualifications and closing date.",
-    deadline: "Varies by listing",
-    source: "UNICEF",
-    url: "https://jobs.unicef.org/en-us/Search/?location=nigeria"
-  },
-
-  {
-    title: "African Development Bank Careers",
-    category: "job",
-    tag: "INTERNATIONAL JOBS",
-    description: "Explore professional vacancies and other career opportunities at the African Development Bank.",
-    deadline: "Varies",
-    source: "African Development Bank",
-    url: "https://www.afdb.org/en/about-us/careers"
-  },
-
-  {
-    title: "Reckitt Careers",
-    category: "job",
-    tag: "CORPORATE JOBS",
-    description: "Explore career and graduate opportunities. Check the official vacancy listing for available positions.",
-    deadline: "Varies",
-    source: "Reckitt",
-    url: "https://www.reckitt.com/careers/"
-  },
-
-  {
-    title: "Oilserv Careers",
-    category: "job",
-    tag: "OIL AND GAS",
-    description: "Explore professional and graduate career opportunities with Oilserv.",
-    deadline: "Varies",
-    source: "Oilserv",
-    url: "https://oilservgroup.com/careers/"
-  },
-
-  // ==========================================
-  // HEALTHCARE JOBS
-  // ==========================================
-
-  {
-    title: "Kaduna PHC Board — CHEW",
-    category: "healthcare",
-    tag: "CHEW",
-    description: "Community Health Technician recruitment information. Review the official vacancy for qualification, professional registration and application requirements.",
-    deadline: "Check official portal",
-    source: "Kaduna State PHC Board",
-    url: "https://recruitment.kdsg.gov.ng/"
-  },
-
-  {
-    title: "Kaduna PHC Board — JCHEW",
-    category: "healthcare",
-    tag: "JCHEW",
-    description: "Community Health Assistant recruitment information. Check the required certificate, registration and eligibility on the official portal.",
-    deadline: "Check official portal",
-    source: "Kaduna State PHC Board",
-    url: "https://recruitment.kdsg.gov.ng/"
-  },
-
-  {
-    title: "Kaduna PHC Board — Medical Laboratory Technician",
-    category: "healthcare",
-    tag: "MLT",
-    description: "Medical Laboratory Technician recruitment information. Confirm the required qualification and professional registration.",
-    deadline: "Check official portal",
-    source: "Kaduna State PHC Board",
-    url: "https://recruitment.kdsg.gov.ng/"
-  },
-
-  {
-    title: "Kaduna PHC Board — Nursing Officer",
-    category: "healthcare",
-    tag: "NURSING",
-    description: "Nursing recruitment information. Review the official vacancy for qualification and Nursing and Midwifery Council registration requirements.",
-    deadline: "Check official portal",
-    source: "Kaduna State PHC Board",
-    url: "https://recruitment.kdsg.gov.ng/"
-  },
-
-  {
-    title: "Kaduna PHC Board — Pharmacy Technician",
-    category: "healthcare",
-    tag: "PHARMACY",
-    description: "Check the official portal for pharmacy technician vacancy requirements, registration and application instructions.",
-    deadline: "Check official portal",
-    source: "Kaduna State PHC Board",
-    url: "https://recruitment.kdsg.gov.ng/"
-  },
-
-  {
-    title: "Kaduna PHC Board — Environmental Health",
-    category: "healthcare",
-    tag: "ENVIRONMENTAL HEALTH",
-    description: "Explore Environmental Health Officer and Environmental Health Technician recruitment information.",
-    deadline: "Check official portal",
-    source: "Kaduna State PHC Board",
-    url: "https://recruitment.kdsg.gov.ng/"
-  },
-
-  {
-    title: "Kaduna PHC Board — Health Educator",
-    category: "healthcare",
-    tag: "HEALTH EDUCATION",
-    description: "Check the official recruitment portal for health educator requirements and professional registration.",
-    deadline: "Check official portal",
-    source: "Kaduna State PHC Board",
-    url: "https://recruitment.kdsg.gov.ng/"
-  },
-
-  {
-    title: "Kaduna PHC Board — Nutrition Officer",
-    category: "healthcare",
-    tag: "NUTRITION",
-    description: "Explore nutrition-related healthcare recruitment information and verify qualification requirements.",
-    deadline: "Check official portal",
-    source: "Kaduna State PHC Board",
-    url: "https://recruitment.kdsg.gov.ng/"
-  },
-
-  {
-    title: "Kaduna PHC Board — Health Information Management",
-    category: "healthcare",
-    tag: "HEALTH INFORMATION",
-    description: "Check the official portal for Health Information Management Technician recruitment and registration requirements.",
-    deadline: "Check official portal",
-    source: "Kaduna State PHC Board",
-    url: "https://recruitment.kdsg.gov.ng/"
-  },
-
-  {
-    title: "Federal Ministry of Health Careers",
-    category: "healthcare",
-    tag: "HEALTHCARE CAREERS",
-    description: "Explore healthcare workforce information and official career announcements from the Federal Ministry of Health and Social Welfare.",
-    deadline: "Check official announcements",
-    source: "Federal Ministry of Health",
-    url: "https://health.gov.ng/human-resources/"
-  },
-
-  {
-    title: "NASCP Careers and Opportunities",
-    category: "healthcare",
-    tag: "PUBLIC HEALTH",
-    description: "Explore vacancies, consultancies and other opportunities published by the National AIDS and STIs Control Programme. Check whether each listing is still open.",
-    deadline: "Varies",
-    source: "NASCP",
-    url: "https://www.nascp.gov.ng/opportunities/"
-  },
-
-  {
-    title: "APIN Public Health Initiatives Careers",
-    category: "healthcare",
-    tag: "PUBLIC HEALTH / NGO",
-    description: "Explore public health career opportunities and verify current vacancies on the organisation's official website.",
-    deadline: "Varies",
-    source: "APIN Public Health Initiatives",
-    url: "https://apin.org.ng/"
-  },
-
-  {
-    title: "AHNi — Public Health Careers",
-    category: "healthcare",
-    tag: "HEALTH / NGO",
-    description: "Explore health programme and public health career information. Check the official organisation website for current vacancies.",
-    deadline: "Varies",
-    source: "AHNi",
-    url: "https://ahnigeria.org/"
-  },
-
-  // ==========================================
-  // SCHOLARSHIPS
-  // ==========================================
-
-  {
-    title: "Federal Ministry of Education Scholarships",
-    category: "scholarship",
-    tag: "SCHOLARSHIP",
-    description: "Check official government announcements for scholarship opportunities, eligibility and application deadlines.",
-    deadline: "Check official announcement",
-    source: "Federal Ministry of Education",
-    url: "https://education.gov.ng/"
-  },
-
-  {
-    title: "Study in Nigeria",
-    category: "scholarship",
-    tag: "EDUCATION",
-    description: "Explore information about studying in Nigeria and check available education opportunities.",
-    deadline: "Varies",
-    source: "Study in Nigeria",
-    url: "https://www.studyinnigeria.gov.ng/"
-  },
-
-  // ==========================================
-  // TRAINING AND DIGITAL SKILLS
-  // ==========================================
-
-  {
-    title: "MTN ICT and Business Skills Training",
-    category: "training",
-    tag: "DIGITAL SKILLS",
-    description: "Check MTN Nigeria's official website for ICT, entrepreneurship and business skills training announcements.",
-    deadline: "Check official announcement",
-    source: "MTN Nigeria",
-    url: "https://www.mtn.ng/"
-  },
-
-  {
-    title: "Microsoft Learn",
-    category: "training",
-    tag: "TECHNOLOGY TRAINING",
-    description: "Access online learning paths covering technology, cloud computing, data, AI and other digital skills. Course availability and certification conditions vary.",
-    deadline: "Self-paced learning",
-    source: "Microsoft Learn",
-    url: "https://learn.microsoft.com/training/"
-  },
-
-  {
-    title: "Cisco Networking Academy",
-    category: "training",
-    tag: "IT TRAINING",
-    description: "Explore networking, cybersecurity and other technology courses. Check each course for fees and certificate requirements.",
-    deadline: "Varies by course",
-    source: "Cisco Networking Academy",
-    url: "https://www.netacad.com/"
-  },
-
-  // ==========================================
-  // GRANTS AND ENTREPRENEURSHIP
-  // ==========================================
-
-  {
-    title: "Tony Elumelu Foundation Entrepreneurship Programme",
-    category: "grant",
-    tag: "ENTREPRENEURSHIP",
-    description: "Check the official foundation website for programme announcements, eligibility and application periods. Funding is not guaranteed to every applicant.",
-    deadline: "Check official announcement",
-    source: "Tony Elumelu Foundation",
-    url: "https://www.tonyelumelufoundation.org/"
-  },
-
-  {
-    title: "SMEDAN Business Support",
-    category: "grant",
-    tag: "SMALL BUSINESS",
-    description: "Explore small business support, training and programme announcements from the Small and Medium Enterprises Development Agency of Nigeria.",
-    deadline: "Varies by programme",
-    source: "SMEDAN",
-    url: "https://smedan.gov.ng/"
-  },
-
-  // ==========================================
-  // VOLUNTEERING
-  // ==========================================
-
-  {
-    title: "United Nations Online Volunteering",
-    category: "volunteering",
-    tag: "VOLUNTEERING",
-    description: "Explore online volunteering assignments with organisations around the world through the official United Nations Volunteers platform.",
-    deadline: "Varies by assignment",
-    source: "United Nations Volunteers",
-    url: "https://app.unv.org/"
-  },
-
-    // ==========================================
-  // VERIFIED RECRUITMENT — OCTOBER 2026
-  // Checked: 18 October 2026
-  // Confirm vacancy status before applying.
-  // ==========================================
-
-  {
-    title: "UNICEF — Financial System Strengthening Associate Consultant",
-    category: "healthcare",
-    tag: "HEALTH PROGRAMME",
-    description: "12-month national consultancy supporting financial management systems for primary healthcare programmes under the EU SARAH grant. The role supports the Kwara State Primary Healthcare Development Agency and Ministry of Health. The listed duty station is Kaduna, with office-based work and travel. Applicants need a relevant university degree and at least five years of progressive financial management, accounting, financial controls and partnership management experience. A master's degree or professional accounting qualification is an advantage.",
-    deadline: "21 October 2026",
+    tag: "INTERNATIONAL CONSULTANCY",
+    description:
+      "A 12-month consultancy supporting education data management and AI solutions in Abuja, Nigeria. The role requires substantial experience in digital systems, artificial intelligence and data analysis. Review the full vacancy for the required qualifications and application documents.",
+    deadline: "28 October 2026",
     source: "UNICEF Careers",
-    url: "https://jobs.unicef.org/en-us/job/596332"
+    url: "https://jobs.unicef.org/cw/en-us/job/596456/international-consultant-for-ai-solutions-for-education-data-management-education-abuja-nigeria-12-months-remotetravel-596456"
   },
 
   {
-    title: "UNICEF — People and Culture Associate",
+    title: "UNICEF — Programme Assistant (G-5)",
     category: "job",
-    tag: "HUMAN RESOURCES",
-    description: "Temporary 364-day appointment in Abuja, Nigeria. Provides administrative, procedural and operational support for human resources functions. The vacancy requires completion of secondary education and at least six years of progressively responsible administrative or clerical experience. Review the official vacancy for the full requirements.",
-    deadline: "22 October 2026",
+    tag: "PROGRAMME / ADMINISTRATION",
+    description:
+      "A temporary 364-day Programme Assistant position in Abuja, Nigeria, supporting programme operations in the Health Section. The listing specifies secondary education and relevant administrative or clerical experience. Check the vacancy notice for the complete requirements and application instructions.",
+    deadline: "29 October 2026",
     source: "UNICEF Careers",
-    url: "https://careers.pageuppeople.com/671/cw/en-us/job/596321"
+    url: "https://jobs.unicef.org/mob/cw/en-us/job/596498/programme-assistant-g5-ta-364-days-139003-abuja-nigeria-wcar"
   },
 
   {
-    title: "UNICEF — Food Fortification and Iodine Nutrition Consultancy",
+    title: "UNICEF — Sanitation Finance Consultant",
     category: "healthcare",
-    tag: "PUBLIC HEALTH & NUTRITION",
-    description: "10-month consultancy based in Abuja, with travel across West and Central Africa. Provides technical, policy and coordination support for large-scale food fortification, universal salt iodization and related nutrition priorities. Intended for experienced professionals; check the official vacancy for the full qualifications and application requirements.",
-    deadline: "25 October 2026",
+    tag: "WASH / PUBLIC HEALTH",
+    description:
+      "A 12-month consultancy supporting sanitation finance and resource mobilisation in Nigeria. This is an experienced-professional role with substantial relevant finance experience requirements. Read the full vacancy before applying.",
+    deadline: "5 November 2026",
     source: "UNICEF Careers",
-    url: "https://jobs.unicef.org/cw/en-us/job/596210/consultancy-to-provide-technical-support-to-advance-largescale-food-fortification-and-iodine-nutrition-agenda-in-wcar-office-based-in-abuja-nigeria-with-travel-10-months-596210"
+    url: "https://jobs.unicef.org/fr/job/596531/sanitation-finance-consultant-national-or-international-abuja-nigeria-remote-with-travel-12-months-596531"
+  },
+
+  // ======================================================
+  // HEALTHCARE RECRUITMENT
+  // ======================================================
+
+  {
+    title: "OAUTHC Recruitment — Ile-Ife",
+    category: "healthcare",
+    tag: "HOSPITAL RECRUITMENT",
+    description:
+      "Obafemi Awolowo University Teaching Hospitals Complex recruitment announcement. The notice covers several categories, including medical, nursing, pharmacy, laboratory and other health-related positions. Consult the vacancy announcement for the complete list, qualifications, closing date and application instructions.",
+    deadline: "Six weeks from the advertisement dated 20 October 2026 — confirm in the notice",
+    source: "Federal Character Commission",
+    url: "https://fcc.gov.ng/job-listings/obafemi-awolowo-university-teaching-hospitals-complex-ile-ife/"
   },
 
   {
-    title: "Federal University of Lafia — Recruitment 2026",
+    title: "NAUTH Recruitment — Nnewi",
+    category: "healthcare",
+    tag: "HOSPITAL RECRUITMENT",
+    description:
+      "Nnamdi Azikiwe University Teaching Hospital recruitment announcement in Nnewi, Anambra State. The published notice includes medical positions. Review the full announcement for the complete vacancies, required qualifications, closing date and instructions for applying.",
+    deadline: "Check the official vacancy announcement",
+    source: "Federal Character Commission",
+    url: "https://fcc.gov.ng/job-listings/nnamdi-azikiwe-university-teaching-hospital-p-m-b-5025-nnewi-anambra-state-nigeria/"
+  },
+
+  // ======================================================
+  // UNIVERSITY RECRUITMENT
+  // ======================================================
+
+  {
+    title: "Alex Ekwueme Federal University Recruitment",
     category: "job",
     tag: "UNIVERSITY RECRUITMENT",
-    description: "Academic and non-teaching recruitment at the Federal University of Lafia, Nasarawa State. Listed health-related positions include Medical Officer, Pharmacy Intern, Medical Laboratory Scientist and Medical Laboratory Technician. Each position has different qualification and registration requirements. Read the official recruitment notice and confirm your eligibility before applying.",
-    deadline: "28 October 2026",
-    source: "Federal University of Lafia",
-    url: "https://careers.fulafia.edu.ng/"
-    },
+    description:
+      "Recruitment announcement for academic and non-academic positions at Alex Ekwueme Federal University, Ndufu-Alike, Ebonyi State. Read the specific vacancy announcement to identify available positions, qualifications, required documents and application instructions.",
+    deadline: "Check the official vacancy announcement",
+    source: "Federal Character Commission",
+    url: "https://fcc.gov.ng/job-listings/alex-ekwueme-federal-university-ndufu-alike-ebonyi-state-p-m-b-1010-abakaliki-ebonyi-state/"
+  }
+
 ];
 
 
-// ==========================================
+// ======================================================
 // DISPLAY OPPORTUNITIES
-// ==========================================
+// ======================================================
 
 document.addEventListener("DOMContentLoaded", function () {
 
   const container = document.getElementById("opportunityList");
 
   if (!container) {
+    console.error(
+      'Opportunity list container not found. Add an element with id="opportunityList".'
+    );
     return;
   }
 
+  // Safely escape text before displaying it.
   function escapeHTML(value) {
-    return String(value ?? "").replace(/[&<>\"']/g, function (character) {
+    return String(value ?? "").replace(/[&<>"']/g, function (character) {
       const entities = {
         "&": "&amp;",
         "<": "&lt;",
@@ -437,13 +132,29 @@ document.addEventListener("DOMContentLoaded", function () {
     });
   }
 
+  // Accept HTTPS links only.
+  function getSafeURL(value) {
+    try {
+      const parsedURL = new URL(value);
+
+      if (parsedURL.protocol === "https:") {
+        return parsedURL.href;
+      }
+    } catch (error) {
+      console.warn("Invalid opportunity URL:", value);
+    }
+
+    return "#";
+  }
+
+  // Render opportunity cards.
   function renderOpportunities(items) {
 
     container.innerHTML = "";
 
-    if (items.length === 0) {
+    if (!items.length) {
       container.innerHTML =
-        "<p>No opportunities found. Try another search.</p>";
+        '<p class="no-results">No opportunities found. Try another search.</p>';
       return;
     }
 
@@ -461,8 +172,7 @@ document.addEventListener("DOMContentLoaded", function () {
         opportunity.source
       ).toLowerCase();
 
-      const safeURL = /^https:\/\/[a-z0-9.-]+\.[a-z]{2,}(\/.*)?$/i
-        .test(opportunity.url) ? opportunity.url : "#";
+      const safeURL = getSafeURL(opportunity.url);
 
       card.innerHTML = `
         <span class="tag">
@@ -478,11 +188,13 @@ document.addEventListener("DOMContentLoaded", function () {
         </p>
 
         <div class="deadline">
-          Deadline: ${escapeHTML(opportunity.deadline)}
+          <strong>Deadline:</strong>
+          ${escapeHTML(opportunity.deadline)}
         </div>
 
         <div class="source">
-          Source: ${escapeHTML(opportunity.source)}
+          <strong>Source:</strong>
+          ${escapeHTML(opportunity.source)}
         </div>
 
         <a
@@ -490,8 +202,9 @@ document.addEventListener("DOMContentLoaded", function () {
           href="${escapeHTML(safeURL)}"
           target="_blank"
           rel="noopener noreferrer"
+          aria-label="View ${escapeHTML(opportunity.title)} recruitment details"
         >
-          View Opportunity
+          View Recruitment Details
         </a>
       `;
 
@@ -500,12 +213,18 @@ document.addEventListener("DOMContentLoaded", function () {
     });
   }
 
+  // Display all opportunities initially.
   renderOpportunities(opportunities);
 
-  // Connect to an existing search box if present.
+
+  // ======================================================
+  // SEARCH FUNCTIONALITY
+  // ======================================================
+
   const searchInput = document.getElementById("searchInput");
 
   if (searchInput) {
+
     searchInput.addEventListener("input", function () {
 
       const query = searchInput.value.toLowerCase().trim();
@@ -516,17 +235,25 @@ document.addEventListener("DOMContentLoaded", function () {
           item.title + " " +
           item.category + " " +
           item.description + " " +
-          item.source
+          item.source + " " +
+          item.tag
         ).toLowerCase();
 
         return searchableText.includes(query);
+
       });
 
       renderOpportunities(filtered);
+
     });
+
   }
 
-  // Connect to existing category buttons if present.
+
+  // ======================================================
+  // CATEGORY FILTERS
+  // ======================================================
+
   const categoryButtons = document.querySelectorAll("[data-filter]");
 
   categoryButtons.forEach(function (button) {
@@ -545,7 +272,9 @@ document.addEventListener("DOMContentLoaded", function () {
       });
 
       renderOpportunities(filtered);
+
     });
+
   });
 
 });
